@@ -4,8 +4,11 @@
   "description": "A CLI to clean up unnecessary files from React Native projects",
   "main": "dist/index.js",
   "bin": {
-    "rn-cleanup": "dist/index.js"
+    "rn-cleanup": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist && npm run build",
