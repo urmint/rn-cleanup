@@ -1,0 +1,27 @@
+cat <<EOL > .gitignore
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Yarn
+.yarn/
+.yarnrc.yml
+EOL
