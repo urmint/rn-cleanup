@@ -1,17 +1,32 @@
 {
   "name": "rn-cleanup",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A CLI to clean up unnecessary files from React Native projects",
+  "main": "dist/index.js",
+  "bin": {
+    "rn-cleanup": "dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist && npm run build",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "react-native",
+    "cleanup",
+    "utility",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {
     "@types/node": "^22.14.0",
-    "chalk": "^5.4.1",
     "typescript": "^5.8.3"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
