@@ -1,6 +1,6 @@
 {
   "name": "rn-cleanup",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A CLI to clean up unnecessary files from React Native projects",
   "main": "dist/index.js",
   "bin": {

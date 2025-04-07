@@ -7,7 +7,6 @@ import chalk from "chalk";
 const targetsToDelete = [
   "node_modules",
   "ios/Pods",
-  "ios/Podfile.lock",
   "ios/DerivedData",
   "android/.gradle",
   "android/.idea",
@@ -17,7 +16,6 @@ const targetsToDelete = [
   "build",
   "yarn-error.log",
   "npm-debug.log",
-  "package-lock.json", // Only if you use Yarn
 ];
 
 function deleteIfExists(targetPath: string) {
