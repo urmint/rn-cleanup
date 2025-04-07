@@ -22,14 +22,11 @@
   ],
   "author": "Your Name",
   "license": "MIT",
-  "dependencies": {
-    "chalk": "^5.4.1"
-  },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
   },
-  "files": [
-    "dist"
-  ]
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
